@@ -1,0 +1,268 @@
+
+.MainPage {
+  background-image: url("./pack-of-three-cactus-plants-in-assorted-cacti-varieties-572.jpg");
+  text-align: end;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  padding: 50px;
+ font-weight: 700; 
+ font-size: larger;
+ word-spacing: 50px;
+}
+.Details  {
+word-spacing: 0px;
+color: azure;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+font-size:xx-large;
+text-decoration: none;
+}
+.MainPage a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.MainPage button{
+  background: none;
+  border-color: azure;
+  color: aliceblue;
+  font-size: large;
+}
+.Booknow :hover{
+  background-color: green;
+  padding: 2px;
+}
+.Detailss{
+  font-family:'Times New Roman', Times, serif;
+   font-size:large;
+   padding: 2%;
+  }
+
+.Plantsforyou{
+
+  display: flex;
+  padding: 2%;
+}
+
+  .Foryou{
+   
+    color: rgb(5, 94, 5);
+    font: 1.5em sans-serif;
+    font-weight: bold;
+  }
+ 
+  .gift{
+    
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
+padding: 4% , 1%;
+color: rgb(5, 94, 5);
+
+  }
+  .container{
+    width: 800px;
+    margin-left: 20%;
+   
+    display: block;
+  
+  }
+  .row{
+    margin: 5px  0 ;
+    
+  }
+  .column{
+    display: table-cell;
+    padding: 20px;
+    width: 100px;
+    height: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 20px solid white;
+    width: 33.33%;
+    border-radius: 4%;
+    background-color: rgb(252, 252, 249);
+
+  }
+ .row:nth-child(1) .column:nth-child(2) {
+  
+  background-color: rgb(5, 175, 104);
+  color: azure;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-bottom: 20px;
+ }
+ .card{
+  box-shadow: 0 0 5px darkgreen;
+ }
+ .cards2 , .WatSon{
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+ }
+ .card2{
+  box-shadow: 0 0 5px darkgreen;
+ }
+ .plantdata{
+  color:  rgb(31, 143, 31);
+
+ }
+ .offer{
+  color: gray;
+ text-decoration: line-through;
+ }
+
+ .container1{
+  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 100%;
+  margin: 3%;
+
+ }
+ .row1{
+  background-color: rgb(255, 249, 238);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  
+  
+ }
+ .column2{
+  background-color: rgb(248, 241, 241);
+ }
+
+ .GalleryView , .AboutUs , .BlogToRead h5, .plantdata h5{
+  text-align: center;
+  color: rgb(1, 83, 1);
+  font: 1.5em sans-serif;
+  font-weight: bold;
+}
+ .GalleryViewimg{
+  text-align: center;
+  color: rgb(1, 83, 1);
+  font: 2em sans-serif;
+
+ display: flex;
+ width: 95%;
+margin: 2px;
+  }
+
+ .Grace ,.WatSon,.Szu {
+    display: table-cell;
+    padding: 10px;
+    width: 100px;
+    height: 300px;
+    padding: 3%;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 20px solid white;
+    color: darkgreen;
+    width: 33.33%;
+    background-color: rgb(230, 230, 218);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.InterstingThings{
+  background-image: url('./OIP.jpg');
+ padding-top: 100px;
+ padding-bottom: 100px;
+ padding-left: 5%;
+ background-size: 100% 100%;
+background-repeat: no-repeat;
+color: azure;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: larger;
+font-weight: 700;
+
+
+
+}
+.InterstingThings button{
+  background-color: rgb(15, 54, 15);
+  border: green;
+  color:  aliceblue ;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin: 2%;
+ 
+}
+.InterstingThings input {
+  padding: 10px;
+  margin: 2%;
+  background: transparent;
+  border-color: white ;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.cardss {
+  display: table-cell;
+  padding:  20px;
+  
+  width: 100px;
+  height: 300px;
+  
+  text-align: left;
+  vertical-align: middle;
+
+  width: 33.33%;
+  background-color: transparent;
+
+}
+
+.ReadMore{
+  padding-left: 20%;
+  color: darkgreen;
+  text-decoration: none;
+  
+}
+.BlogToRead{
+  align-content: center;
+ 
+  margin: 0 10%;
+}
+.ContactUs{
+  color: aliceblue;
+ 
+  background-image: url("./R.jpg");
+}
+.logo{
+  display: flex;
+
+  margin-left: 30%;
+}
+.instagram , .facebook, .twitter{
+  padding: 0% 6% 3% 6%;
+}
+.ContactUs a {
+  word-spacing: 0px;
+  color: azure;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 6%;
+  font-size:large;
+  padding: 3%;
+  
+  text-decoration: none;
+  }
+  .ContactUs h3{
+    
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 35%;
+    font-size:x-large;
+ 
+    }
+    .reserved{
+      background-color: black;
+      text-align: center
+    }
